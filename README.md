@@ -1,7 +1,9 @@
 # BenjiSoft-Website
 The BenjiSoft Website hosted at www.benjisoft.org.uk
 
-Credits: license.html: Created By Benji Lewis (BenjiSoft)
+Credits:
+
+license.html: Created By Benji Lewis (BenjiSoft)
 
 README.md: Written By Benji Lewis (BenjiSoft)
 
