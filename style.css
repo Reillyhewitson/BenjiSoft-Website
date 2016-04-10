@@ -65,6 +65,16 @@ MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaa   ddddddddd   ddddd    eeeeeee
   margin-bottom: 20px;
   padding-bottom: 50px;
 }
+/* The Nav Menu */
+#nav {
+  padding: 25px;
+  margin: 20px;
+  background-color: black;
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+}
 /* The first box introducing the website */
 #part1 {
   padding: 25px;
