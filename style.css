@@ -137,3 +137,14 @@ MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaa   ddddddddd   ddddd    eeeeeee
 body {
   background-color: lightblue;
 }
+/* The contact page CSS*/
+/* The CSS of the form */
+#form {
+  padding: 25px;
+  margin: 20px;
+  background-color: cyan;
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+}
