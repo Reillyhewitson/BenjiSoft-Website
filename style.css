@@ -34,7 +34,6 @@ MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaa   ddddddddd   ddddd    eeeeeee
 #title {
   color: white;
   background-color:orange;
-  color: white;
   text-shadow:
   -1px -1px 0 #000,
   1px -1px 0 #000,
@@ -52,7 +51,6 @@ MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaa   ddddddddd   ddddd    eeeeeee
 #subtitle {
   font-size: 25px;
   font-family: fantasy;
-  color: white;
   background-color: orange;
   text-shadow:
   -1px -1px 0 #000,
