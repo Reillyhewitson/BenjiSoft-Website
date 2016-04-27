@@ -41,10 +41,10 @@ MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaa   ddddddddd   ddddd    eeeeeee
   -1px 1px 0 #000,
   1px 1px 0 #000;
   text-align: center;
-  margin: 20px;
-  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
   padding-top: 50px;
-  padding-bottom: 0px;
   font-size: 50px;
   font-family: fantasy;
 }
@@ -59,10 +59,10 @@ MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaa   ddddddddd   ddddd    eeeeeee
   1px -1px 0 #000,
   -1px 1px 0 #000,
   1px 1px 0 #000;
-  margin: 20px;
-  text-align: center;
-  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 20px;
+  text-align: center;
   padding-bottom: 50px;
 }
 /* The Nav Menu */
