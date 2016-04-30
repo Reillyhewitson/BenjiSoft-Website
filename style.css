@@ -30,9 +30,13 @@ MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaa   ddddddddd   ddddd    eeeeeee
 /_____/  \___/ /_/ /_/  __/ /   /_/   /____/  \____/ /_/     \__/
                        /___/
 */
+/*The main styling for the website */
+body {
+  background-color: lightblue;
+  color: white;
+}
 /* For the title box at the top of index.html */
 #title {
-  color: white;
   background-color:orange;
   text-shadow:
   -1px -1px 0 #000,
@@ -95,7 +99,6 @@ MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaa   ddddddddd   ddddd    eeeeeee
 }
 /* The title box for the projects section */
 #title2 {
-  color: white;
   background-color:orange;
   text-shadow:
   -1px -1px 0 #000,
@@ -129,10 +132,6 @@ MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaa   ddddddddd   ddddd    eeeeeee
   text-align: center;
   font-family: sans-serif;
   font-size: 18px;
-}
-/* The background color */
-body {
-  background-color: lightblue;
 }
 /* The contact page CSS*/
 /* The CSS of the form */
