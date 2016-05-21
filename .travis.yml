@@ -7,28 +7,3 @@ php:
   - hhvm
 
 script: phpunit action_page.php
-
-before_deploy:
-  - zip -r latest *
-  - mkdir -p dpl_cd_upload
-  - mv latest.zip dpl_cd_upload/latest.zip
-
-deploy:
-  - provider: s3
-    access_key_id: AKIAIXFU6Y2GEHTP3CMA
-    secret_access_key: &1
-      secure: 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
-    skip_cleanup: true
-    on: &2
-      repo: benjisoft/BenjiSoft-Website
-    bucket: website-codedeploy
-  - provider: codedeploy
-    region: eu-west-1
-    access_key_id: AKIAIXFU6Y2GEHTP3CMA
-    secret_access_key: *1
-    bucket: website-codedeploy
-    key: latest.zip
-    bundle_type: zip
-    application: BenjiSoft-web
-    deployment_group: Windows
-    on: *2
