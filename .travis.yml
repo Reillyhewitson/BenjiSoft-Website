@@ -29,6 +29,6 @@ deploy:
     bucket: website-codedeploy
     key: latest.zip
     bundle_type: zip
-    application: BenjiSoft
+    application: BenjiSoft-web
     deployment_group: Windows
     on: *2
