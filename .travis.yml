@@ -29,5 +29,5 @@ deploy:
     key: latest.zip
     bundle_type: zip
     application: BenjiSoft
-    deployment_group: Linux
+    deployment_group: Windows
     on: *2
