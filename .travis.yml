@@ -23,6 +23,7 @@ deploy:
       repo: benjisoft/BenjiSoft-Website
     bucket: website-codedeploy
   - provider: codedeploy
+    region: eu-west-1
     access_key_id: AKIAIXFU6Y2GEHTP3CMA
     secret_access_key: *1
     bucket: website-codedeploy
