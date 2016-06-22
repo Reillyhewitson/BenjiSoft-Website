@@ -12,14 +12,3 @@ if (!mysql_query($sql, $con)) {
 }
 echo 'Your Information Was Successfully Posted';
 mysql_close($con);
-$to = 'benji@benjicraft.info';
-$subject = 'Question from website';
-$email = $_POST['Email'];
-$message = $_POST['Comp'];
-$headers = "From: $Email";
-$sent = mail($to, $subject, $message, $headers);
-if ($sent) {
-    echo 'Your message was sent successfully';
-} else {
-    echo 'We encountered an error sending your message';
-}
