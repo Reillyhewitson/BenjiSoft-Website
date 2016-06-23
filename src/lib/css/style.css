@@ -49,12 +49,12 @@ body {
   margin-top: 20px;
   padding-top: 50px;
   font-size: 50px;
-  font-family: fantasy;
+  font-family: 'Baloo', cursive;
 }
 /* For the smaller text to look the same as the title box */
 #subtitle {
   font-size: 25px;
-  font-family: fantasy;
+  font-family: 'Baloo', cursive;
   background-color: orange;
   text-shadow:
   -1px -1px 0 #000,
@@ -112,7 +112,7 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   font-size: 50px;
-  font-family: fantasy;
+  font-family: 'Baloo', cursive;
 }
 /* The final part showing off my projects so far */
 #part3 {
