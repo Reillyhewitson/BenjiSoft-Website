@@ -151,6 +151,7 @@ a:link {
 }
 a:visited {
   text-decoration: none;
+  color: blue;
 }
 a:hover {
   text-decoration: none;
