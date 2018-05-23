@@ -5,7 +5,7 @@
  * Created by PhpStorm.
  * User: BenjaminLewis
  * Date: 23/05/2018
- * Time: 19:55
+ * Time: 19:55.
  */
 $content = "
 <h1>Welcome!</h1>
