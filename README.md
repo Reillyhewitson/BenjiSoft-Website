@@ -1,7 +1,7 @@
 # BenjiSoft Website
 ## Version 3.0
 
-[![StyleCI](https://github.styleci.io/repos/55439514/shield?branch=beta)](https://github.styleci.io/repos/55439514)  
+[![StyleCI](https://github.styleci.io/repos/55439514/shield?branch=master)](https://github.styleci.io/repos/55439514)  
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com)
 
