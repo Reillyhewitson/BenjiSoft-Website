@@ -24,7 +24,7 @@
             } else {
                 echo 'class="nav"';
             }
-            ?>>Contact Us</a>
+            ?>>Projects</a> &nbsp;
         <a href="trilogy.php"
             <?php
             if (basename($_SERVER['PHP_SELF']) == 'trilogy.php') {
