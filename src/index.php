@@ -8,8 +8,8 @@
  * Time: 19:55
  */
 $content = "
-<h1> Who are we?</h1>
-<p>Well good question!</p>
-<p>Let's explain!</p>
+<h1>Welcome!</h1>
+<h2>We're currently doing some work on the site</h2>
+<h3>And apologise if we don't look our best</h3>
 ";
 include_once 'lib/php/template.php';

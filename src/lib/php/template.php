@@ -8,6 +8,7 @@
     <title>BenjiSoft</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="lib/css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
     <?php include 'lib/php/header.php'?>
