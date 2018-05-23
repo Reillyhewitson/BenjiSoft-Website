@@ -12,7 +12,7 @@
 <body>
     <?php include 'lib/php/header.php'?>
     <div id="content">
-        <?php echo $content;?>
+        <?php echo $content; ?>
     </div>
 </body>
 </html>
