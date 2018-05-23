@@ -17,6 +17,14 @@
                 echo 'class="nav"';
             }
             ?>>About</a> &nbsp;
+        <a href="projects.php"
+            <?php
+            if (basename($_SERVER['PHP_SELF']) == 'projects.php') {
+                echo 'class="nav-current"';
+            } else {
+                echo 'class="nav"';
+            }
+            ?>>Contact Us</a>
         <a href="trilogy.php"
             <?php
             if (basename($_SERVER['PHP_SELF']) == 'trilogy.php') {
