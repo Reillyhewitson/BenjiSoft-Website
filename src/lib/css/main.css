@@ -16,6 +16,16 @@ body {
     padding: 1% 2%;
 }
 
+.nav {
+    color: white;
+}
+
+.nav-current {
+    text-decoration: underline;
+    color: white;
+    text-underline: white;
+}
+
 a {
     text-decoration: none;
     font-family: "Arial Black";
