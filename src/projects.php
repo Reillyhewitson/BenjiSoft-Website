@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: BenjaminLewis
- * Date: 23/05/2018
- * Time: 20:27
+
+/*
+ * <!-- Made with Love by BenjiSoft
+ *      Licensed under the GNU GPL v3.0 license -->
  */
