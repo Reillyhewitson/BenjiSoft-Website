@@ -1,10 +1,14 @@
 # BenjiSoft Website
 ## Version 3.0
 
-##About
+[![StyleCI](https://github.styleci.io/repos/55439514/shield?branch=beta)](https://github.styleci.io/repos/55439514)  
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com)
+
+## About
 This is the official BenjiSoft website. We host information about all of our projects here. If you feel like it's missing something then go ahead and make a pull request and you might just get your fork on the site.
 
-###History
+### History
 I first registered the http://benjisoft.org.uk domain back in 2016. This definitely was not the first domain I ever purchased! That was way back in 2013!
 
 Since then, it has been through 3 iterations. The first being a template! The second a site that was built from the ground up but had a horrific colour scheme! This is the 3rd and hopefully the best!
