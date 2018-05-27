@@ -1,6 +1,6 @@
 <div id="header">
     <img src="lib/res/logo.gif" height="200%">
-    <div class="right">
+    <div id="links" class="right">
         <a href="index.php"
             <?php
             if (basename($_SERVER['PHP_SELF']) == 'index.php') {

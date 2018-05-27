@@ -27,7 +27,7 @@ body {
     text-underline: white;
 }
 
-a {
+#links>a {
     text-decoration: none;
     font-family: "Arial Black";
     font-size: 20px;
@@ -37,4 +37,8 @@ a {
 
 .right {
     text-align: right;
+}
+
+.center {
+    text-align: center;
 }
