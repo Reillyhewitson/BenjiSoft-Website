@@ -1,5 +1,5 @@
 <div id="header">
-    <img src="lib/res/logo.gif" height="200%">
+    <img src="lib/res/Benjisoft_Logo_largeNC.png" height= "150">
     <div id="links" class="right">
         <a href="index.php"
             <?php
