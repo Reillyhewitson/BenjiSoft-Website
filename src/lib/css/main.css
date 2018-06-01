@@ -3,14 +3,18 @@ body {
     background-color: white;
     font-family: 'Raleway', sans-serif;
     margin: 0%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
+
+html{
+    height: 100%;
+  }
 
 #content {
     padding: 1% 2%;
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -53px;
+    flex: 1;
 }
 
 #header {
@@ -74,6 +78,3 @@ body {
     color: #CBCBCB
 }
 
-.footer, .push{
-    height: 53px; /* .push must be the same height as .footer */
-}
