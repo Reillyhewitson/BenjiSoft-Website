@@ -15,7 +15,9 @@
     <?php include 'lib/php/header.php'?>
     <div id="content">
         <?php echo $content; ?>
+        <div class = 'push'></div>
     </div>
+    <?php include 'lib/php/footer.html'?>
 </body>
 </html>
 
