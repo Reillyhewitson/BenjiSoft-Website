@@ -1,6 +1,6 @@
 <div id="header">
-    <img src="lib/res/Benjisoft_Logo_largeNC.svg" height= "110">
-    <div id="links" class="right">
+    <img src="lib/res/logo.gif" height="200%">
+    <div id="links" class="righta">
         <a href="index.php"
             <?php
             if (basename($_SERVER['PHP_SELF']) == 'index.php') {
