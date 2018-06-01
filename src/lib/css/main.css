@@ -7,6 +7,10 @@ body {
 
 #content {
     padding: 1% 2%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -53px;
 }
 
 #header {
@@ -42,4 +46,34 @@ body {
 
 .center {
     text-align: center;
+}
+
+.footer{
+    background: #7918f2;
+    background: -webkit-linear-gradient(-45deg,#ac32e4,#7918f2,#4801ff);
+    background: -o-linear-gradient(-45deg,#ac32e4,#7918f2,#4801ff);
+    background: -moz-linear-gradient(-45deg,#ac32e4,#7918f2,#4801ff);
+    background: linear-gradient(-45deg,#ac32e4,#7918f2,#4801ff);
+    color: #CBCBCB;
+    overflow: auto;
+}
+
+#copyright_footer{
+    overflow: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#contact_footer{
+    overflow: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#contact_email{
+    color: #CBCBCB
+}
+
+.footer, .push{
+    height: 53px; /* .push must be the same height as .footer */
 }
