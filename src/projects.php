@@ -8,8 +8,37 @@
  * Time: 19:55.
  */
 $content = "
-<h1>Welcome!</h1>
-<h2>We're currently doing some work on the site</h2>
-<h3>And apologise if we don't look our best</h3>
+<link href='lib/css/timeline.css' rel='stylesheet' type='text/css'>
+<div class=\"timeline\">
+  <div class=\"container left\">
+
+    <div class=\"content\">
+      <h2>2017</h2>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+
+  <div class=\"container right\">
+    <div class=\"content\">
+      <h2>2016</h2>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+
+  <div class=\"container left\">
+    <div class=\"content\">
+      <h2>2017</h2>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+  
+  <div class=\"container right\">
+    <div class=\"content\">
+      <h2>2016</h2>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+
+</div>
 ";
 include_once 'lib/php/template.php';
