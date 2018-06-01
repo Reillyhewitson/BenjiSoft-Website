@@ -33,6 +33,8 @@ body {
     position: relative;
     background-color: inherit;
     width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* The circles on the timeline */
@@ -94,12 +96,17 @@ body {
 
 /* The actual content */
 .content {
-    padding: 20px 30px;
+    padding: 10px 20px;
     background-color: white;
     color: black;
     position: relative;
     border-style: solid;
     border-radius: 6px;
+}
+
+#content{
+    padding-top: 0%;
+    padding-bottom: 0%
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -114,6 +121,8 @@ body {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
+        padding-bottom: 20px;
+        padding-top: 20px
     }
 
     /* Make sure that all arrows are pointing leftwards */
