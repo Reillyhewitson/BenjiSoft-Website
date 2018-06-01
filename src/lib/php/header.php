@@ -25,14 +25,6 @@
                 echo 'class="nav"';
             }
             ?>>Projects</a> &nbsp;
-        <a href="trilogy.php"
-            <?php
-            if (basename($_SERVER['PHP_SELF']) == 'trilogy.php') {
-                echo 'class="nav-current"';
-            } else {
-                echo 'class="nav"';
-            }
-            ?>>The Trilogy</a> &nbsp;
         <a href="team.php"
             <?php
             if (basename($_SERVER['PHP_SELF']) == 'team.php') {
