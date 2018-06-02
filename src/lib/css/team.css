@@ -20,6 +20,25 @@ tr{
 
 #desc{
     flex: 1;
-    flex-basis: 20%%;
+    flex-basis: 20%;
 }
 
+@media screen and (max-width: 600px){
+    /* Force table to not be like tables anymore */
+	table, tbody, td, tr, body { 
+		display: block; 
+    }
+    
+    td { 
+		/* Behave  like a "row" */ 
+		position: relative;
+        padding-bottom: 2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        overflow: auto; /* In case screen is too narrow */
+    }
+    
+    #desc{
+        width: 100%;
+    }
+}
