@@ -36,10 +36,6 @@ html{
     text-underline: white;
 }
 
-select{
-    display: none;
-}
-
 #links>a {
     text-decoration: none;
     font-family: "Arial Black";
@@ -100,12 +96,6 @@ table.center {
     #contact_footer{
         float: none;
         text-align: center;
-    }
-    #links{
-        display: none;
-    }
-    select{
-        display: inline-block;
     }
 }
 
