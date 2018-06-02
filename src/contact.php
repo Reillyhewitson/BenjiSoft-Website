@@ -21,9 +21,9 @@ $content = "
     </thead>
     <tbody>
         <tr>
-            <td>oliver@benjisoft.org.uk</td>
-            <td>benji@benjisoft.org.uk</td>
-            <td>reilly@benjisoft.org.uk</td>
+            <td><a href = mailto:oliver@benjisoft.org.uk>oliver@benjisoft.org.uk</a></td>
+            <td><a href = mailto:benji@benjisoft.org.uk>benji@benjisoft.org.uk</a></td>
+            <td><a href = mailto:reilly@benjisoft.org.uk>reilly@benjisoft.org.uk</a></td>
         </tr>
     </tbody>
 </table>
