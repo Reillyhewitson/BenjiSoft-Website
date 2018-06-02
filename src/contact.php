@@ -9,7 +9,7 @@
  */
 $content = "
 <link rel='stylesheet' type='text/css' href='lib/css/contact.css'>
-<h3 class='center'>If you have a general enquiree please email us at <a href='mailto:contact@benjisoft.org.uk'>contact@benjisoft.org.uk</a>. If you would like to get in touch with someone specifically, please use their contact details below.</h3>
+<h3 class='center'>If you have a general enquiry please email us at <a href='mailto:contact@benjisoft.org.uk'>contact@benjisoft.org.uk</a>. If you would like to get in touch with someone specifically, please use their contact details below.</h3>
 <br>
 <table class='contact_table'>
     <thead>
