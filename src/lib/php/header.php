@@ -1,5 +1,5 @@
 <div id="header">
-    <img src="lib/res/logo.png" height="110">
+    <img src="lib/res/logo.png" id = "logo">
     <div id="links" class="righta">
         <a href="index.php"
             <?php
