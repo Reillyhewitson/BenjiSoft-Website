@@ -42,7 +42,7 @@
             }
             ?>>Contact Us</a> &nbsp;
     </div>
-    <div>
+    <div id = "dropdown">
     <select onchange = "location = this.value">
         <option value="" selected = "selected">Select</option>
 

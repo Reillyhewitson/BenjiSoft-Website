@@ -111,6 +111,10 @@ table.center {
         display: block;
         float: right;
     }
+
+    #dropdown{
+        overflow: auto;
+    }
 }
 
 /* Button styling */
