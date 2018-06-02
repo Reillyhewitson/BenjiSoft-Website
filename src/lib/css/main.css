@@ -66,15 +66,30 @@ html{
     overflow: auto;
     padding-left: 2%;
     padding-right: 2%;
+    float: left;
+    text-align: left;
 }
 
 #contact_footer{
     overflow: auto;
     padding-left: 2%;
     padding-right: 2%;
+    float: right;
+    text-align: right;
+
 }
 
 #contact_email{
-    color: #CBCBCB
+    color: #CBCBCB;
 }
 
+@media screen and (max-width: 600px){
+    #copyright_footer{
+        float: none;
+        text-align: center;
+    }
+    #contact_footer{
+        float: none;
+        text-align: center;
+    }
+}
