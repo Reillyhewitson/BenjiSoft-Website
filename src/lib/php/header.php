@@ -42,6 +42,7 @@
             }
             ?>>Contact Us</a> &nbsp;
     </div>
+    <div>
     <select onchange = "location = this.value">
         <option value="" selected = "selected">Select</option>
 
@@ -51,4 +52,5 @@
         <option value="team.php">The team</option>
         <option value="contact.php">Contact us</option>
     </select>
+    </div>
 </div>

@@ -105,7 +105,8 @@ table.center {
         display: none;
     }
     select{
-        display: inline-block;
+        display: block;
+        float: right;
     }
 }
 
