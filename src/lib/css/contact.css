@@ -19,17 +19,16 @@ table {
 		position: relative;
         padding-left: 45%; 
         padding-bottom: 2%;
+        overflow: auto; /* In case screen is too narrow */
 	}
 	
 	td:before { 
 		/* Now like a table header */
 		position: absolute;
 		/* Top/left values mimic padding */
-		top: 6px;
 		left: 6px;
 		width: 40%; 
         white-space: nowrap;
-        text-align: center;
     }
 
     thead tr { 
