@@ -23,7 +23,7 @@ tr{
 }
 
 #oli_linkdin, #reilly_linkdin{
-    margin-bottom: 34px; /* The linkdIn icons are fixed width. 
+    padding-bottom: 34px; /* The linkdIn icons are fixed width. 
                             this fixes the misalignment caused
                             by Benjis icon being larger */
 }
