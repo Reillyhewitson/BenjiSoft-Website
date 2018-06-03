@@ -22,10 +22,8 @@ tr{
     flex: 1;
 }
 
-#oli_linkdin, #reilly_linkdin{
-    padding-bottom: 34px; /* The linkdIn icons are fixed width. 
-                            this fixes the misalignment caused
-                            by Benjis icon being larger */
+#height{
+    height: 244px; /* alignment fix */
 }
  
 @media screen and (max-width: 600px){
