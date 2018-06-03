@@ -109,8 +109,8 @@ table.center {
     }
     select{
         display: block;
-        float: center;
         min-width: 100%;
+        text-align: center;
     }
 
     #dropdown{
