@@ -1,5 +1,5 @@
 <div id="header">
-    <img src="lib/res/logo.png" height="110">
+    <img src="lib/res/logo.png" id = "logo">
     <div id="links" class="righta">
         <a href="index.php"
             <?php
@@ -41,5 +41,16 @@
                 echo 'class="nav"';
             }
             ?>>Contact Us</a> &nbsp;
+    </div>
+    <div id = "dropdown">
+    <select onchange = "location = this.value">
+        <option value="" selected = "selected">Select</option>
+
+        <option value="index.php">Home</option>
+        <option value="about.php">About</option>
+        <option value="projects.php">Projects</option>
+        <option value="team.php">The team</option>
+        <option value="contact.php">Contact us</option>
+    </select>
     </div>
 </div>

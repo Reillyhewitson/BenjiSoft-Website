@@ -31,9 +31,8 @@ html{
 }
 
 .nav-current {
-    text-decoration: underline;
-    color: white;
-    text-underline: white;
+    text-decoration: underline !important; /* forces current page selector to have underline */
+    color: white !important;
 }
 
 #links>a {
@@ -87,7 +86,10 @@ table.center {
 #contact_email{
     color: #CBCBCB;
 }
-
+#logo{
+    max-width: 100%;
+    max-height: 110px;
+}
 @media screen and (max-width: 600px){
     #copyright_footer{
         float: none;
@@ -96,6 +98,18 @@ table.center {
     #contact_footer{
         float: none;
         text-align: center;
+    }
+    #links{
+        display: none;
+    }
+    select{
+        display: block;
+        min-width: 100%;
+        text-align: center;
+    }
+
+    #dropdown{
+        overflow: auto;
     }
 }
 
