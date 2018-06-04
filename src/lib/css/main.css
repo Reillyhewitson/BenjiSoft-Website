@@ -31,9 +31,8 @@ html{
 }
 
 .nav-current {
-    text-decoration: underline;
-    color: white;
-    text-underline: white;
+    text-decoration: underline !important;
+    color: white !important;
 }
 
 #links>a {
