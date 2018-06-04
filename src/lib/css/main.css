@@ -31,7 +31,7 @@ html{
 }
 
 .nav-current {
-    text-decoration: underline !important;
+    text-decoration: underline !important; /* forces current page selector to have underline */
     color: white !important;
 }
 
