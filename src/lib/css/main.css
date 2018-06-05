@@ -35,10 +35,6 @@ html{
     color: white !important;
 }
 
-select{
-    display: none;
-}
-
 #links>a {
     text-decoration: none;
     font-family: "Arial Black";
