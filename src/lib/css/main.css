@@ -90,6 +90,9 @@ table.center {
     max-width: 100%;
     max-height: 110px;
 }
+#dropdown{
+    display: none;
+}
 @media screen and (max-width: 600px){
     #copyright_footer{
         float: none;
@@ -102,7 +105,7 @@ table.center {
     #links{
         display: none;
     }
-    select{
+    #dropdown{
         display: block;
         min-width: 100%;
         text-align: center;

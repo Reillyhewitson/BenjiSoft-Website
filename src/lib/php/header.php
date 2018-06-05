@@ -42,8 +42,8 @@
             }
             ?>>Contact Us</a> &nbsp;
     </div>
-    <div id = "dropdown">
-    <select onchange = "location = this.value">
+    <div>
+    <select id = "dropdown" onchange = "location = this.value">
         <option value="" selected = "selected">Select</option>
 
         <option value="index.php">Home</option>
