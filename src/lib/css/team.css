@@ -25,7 +25,13 @@ tr{
 #height{
     height: 244px; /* alignment fix */
 }
- 
+
+#headshot{
+    max-height: 100px;
+    width: auto;
+    border-radius: 49.95%;
+}
+
 @media screen and (max-width: 600px){
     /* Force table to not be like tables anymore */
 	table, tbody, td, tr, body { 
