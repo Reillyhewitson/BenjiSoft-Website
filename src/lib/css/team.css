@@ -27,10 +27,11 @@ tr{
 }
 
 #headshot{
-    max-height: 100px;
-    width: auto;
+    height: 100px;
+    width: 100px;
     border-radius: 49.95%;
     margin-top: 2%;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 600px){
