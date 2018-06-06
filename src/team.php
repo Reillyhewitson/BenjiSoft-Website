@@ -13,7 +13,7 @@ $content = "
 <div class='center'><h1>Meet the team!</h1></div>
 <table>
     <td id = \"oli\">
-        <a href = \"https://www.linkedin.com/in/oliver-beardsall-7351a1164/\" target = \"_blank\"><img src = \"lib/res/bios/oli.png\" id = \"headshot\"></a>
+        <a href = \"https://www.linkedin.com/in/oliver-beardsall-7351a1164/\" target = \"_blank\"><img src = \"lib/res/bios/oli.JPG\" id = \"headshot\"></a>
         <h4>Oliver Beardsall</h4>
         <p id =\"Title\">ACEO</p>
         <p id = 'desc'>My name is Oliver Beardsall and I am ACEO at BenjiSoft. I am 15 and I do backend development for BenjiSoft, I am currently working on adding another business to the Benjisoft umbrella that is currently unnamed and will be revealed very soon!</p>
