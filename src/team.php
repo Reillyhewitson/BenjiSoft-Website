@@ -14,7 +14,7 @@ $content = "
 <table>
     <td id = \"oli\">
         <div id = \"image\">
-            <a href = \"https://www.linkedin.com/in/oliver-beardsall-7351a1164/\" target = \"_blank\"><div class = \"background\"><img src = \"lib/res/bios/oli.JPG\" id = \"headshot\"></div></a>
+            <a href = \"https://www.linkedin.com/in/oliver-beardsall-7351a1164/\" target = \"_blank\"><div class = \"background\"><img src = \"lib/res/bios/oli.JPG\" class = \"headshot\"></div></a>
         </div>    
         <h4>Oliver Beardsall</h4>
         <p id =\"Title\">ACEO</p>
@@ -22,7 +22,7 @@ $content = "
     </td>
     <td id = \"Benji\">
         <div id =\"image\">
-            <a href = \"https://www.linkedin.com/in/benjisoft-benji/\" target = \"_blank\"><div class = \"background\"><img src = \"lib/res/bios/benji.png\" id = \"headshot\"></div></a>
+            <a href = \"https://www.linkedin.com/in/benjisoft-benji/\" target = \"_blank\"><div class = \"background\"><img src = \"lib/res/bios/benji.png\" class = \"headshot\"></div></a>
         </div>
         <h4>Benjamin Lewis</h4>
         <p id=\"Title\">CEO</p>
@@ -30,7 +30,7 @@ $content = "
     </td>
     <td id = \"Reilly\">
         <div id = \"image\">
-            <a href = \"https://www.linkedin.com/in/reilly-hewitson-623a83154/\" target = \"_blank\"><div class = \"background\"><img src = \"lib/res/bios/reilly.png\" id = \"headshot\"></div></a>
+            <a href = \"https://www.linkedin.com/in/reilly-hewitson-623a83154/\" target = \"_blank\"><div class = \"background\"><img src = \"lib/res/bios/reilly.jpg\" class = \"headshot\" style = \"transform: rotate(270deg)\"></div></a>
         </div>
         <h4>Reilly Hewitson</h4>
         <p id = \"Title\">Head Of Creative Design</p>

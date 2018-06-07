@@ -20,27 +20,28 @@ tr{
 
 #desc{
     flex: 1;
+    text-align: justify;
 }
 
-#height{
-    height: 244px; /* alignment fix */
-}
 
-#headshot{
+.headshot{
     height: 100px;
     width: 100px;
     border-radius: 49.95%;
     object-fit: cover;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
 }
 
-#headshot:hover{
+.headshot:hover{
     opacity: 0.5;
 }
 
 .background{
     background-color: black;
-    width: 100px;
-    height: 100px;
+    width: 106px;
+    height: 106px;
     border-radius: 49.95%;
     object-fit: cover;
     float: center;
@@ -50,6 +51,7 @@ tr{
     display: flex;
     justify-content: center;
 }
+
 
 @media screen and (max-width: 600px){
     /* Force table to not be like tables anymore */
