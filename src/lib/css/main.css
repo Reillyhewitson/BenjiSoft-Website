@@ -74,6 +74,14 @@ table.center {
     text-align: left;
 }
 
+#status_footer{
+    overflow: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: center;
+    text-align: center;
+}
+
 #contact_footer{
     overflow: auto;
     padding-left: 2%;
@@ -102,6 +110,9 @@ table.center {
     #contact_footer{
         float: none;
         text-align: center;
+    }
+    #contact_status{
+        float: none;
     }
     #links{
         display: none;
