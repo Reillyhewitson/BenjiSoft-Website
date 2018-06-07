@@ -64,34 +64,35 @@ table.center {
     background: linear-gradient(-45deg,#ac32e4,#7918f2,#4801ff);
     color: #CBCBCB;
     overflow: auto;
+    display: flex;
 }
 
 #copyright_footer{
     overflow: auto;
     padding-left: 2%;
     padding-right: 2%;
-    float: left;
     text-align: left;
+    flex: 1;
 }
 
 #status_footer{
     overflow: auto;
     padding-left: 2%;
     padding-right: 2%;
-    float: center;
     text-align: center;
+    flex: 1;
 }
 
 #contact_footer{
     overflow: auto;
     padding-left: 2%;
     padding-right: 2%;
-    float: right;
     text-align: right;
+    flex: 1;
 
 }
 
-#contact_email{
+.footer a{
     color: #CBCBCB;
 }
 #logo{
@@ -103,6 +104,9 @@ table.center {
     display: none;
 }
 @media screen and (max-width: 600px){
+    .footer{
+        display: block;
+    }
     #copyright_footer{
         float: none;
         text-align: center;
