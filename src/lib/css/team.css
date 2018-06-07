@@ -10,6 +10,7 @@ td {
     margin-right: 2%;
     flex: 1;
 }
+
 td > a {
     color: black;
 }
@@ -20,18 +21,7 @@ tr{
 
 .desc{
     flex: 1;
-}
-
-.left{
-    text-align: left;
-}
-
-.middle{
     text-align: justify;
-}
-
-.right{
-    text-align: right;
 }
 
 .headshot{
@@ -60,6 +50,11 @@ tr{
 #image{
     display: flex;
     justify-content: center;
+}
+
+.title{
+    flex: 1;
+    text-align: center;
 }
 
 
