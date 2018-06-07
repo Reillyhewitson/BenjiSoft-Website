@@ -18,11 +18,21 @@ tr{
     display: flex;
 }
 
-#desc{
+.desc{
     flex: 1;
-    text-align: center;
 }
 
+.left{
+    text-align: left;
+}
+
+.middle{
+    text-align: justify;
+}
+
+.right{
+    text-align: right;
+}
 
 .headshot{
     height: 100px;
