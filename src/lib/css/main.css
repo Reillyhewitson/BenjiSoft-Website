@@ -72,7 +72,6 @@ table.center {
     padding-left: 2%;
     padding-right: 2%;
     text-align: left;
-    flex: 1;
 }
 
 #status_footer{
@@ -80,7 +79,6 @@ table.center {
     padding-left: 2%;
     padding-right: 2%;
     text-align: center;
-    flex: 1;
 }
 
 #contact_footer{
@@ -88,8 +86,18 @@ table.center {
     padding-left: 2%;
     padding-right: 2%;
     text-align: right;
-    flex: 1;
 
+}
+
+.vertical{
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+#align{
+    display: flex;
+    justify-content: center;
 }
 
 .footer a{
