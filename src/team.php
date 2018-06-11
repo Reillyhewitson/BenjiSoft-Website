@@ -33,7 +33,7 @@ $content = "
             <a href = \"https://www.linkedin.com/in/reilly-hewitson-623a83154/\" target = \"_blank\"><div class = \"background\"><img src = \"lib/res/bios/reilly.jpg\" class = \"headshot\" style = \"transform: rotate(270deg)\" title = \"LinkedIn\"></div></a>
         </div>
         <h4>Reilly Hewitson</h4>
-        <p class = \"title\">Head Of Creative Design</p>
+        <p class = \"title\">Assistant frontend developer</p>
         <p class = 'desc'> My name is Reilly I do design work such as creating logos, animations and designing the websites and making them responsive.                                                                                                                    </p>
     </td>
 </table>
