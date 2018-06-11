@@ -17,6 +17,10 @@ html{
     flex: 1;
 }
 
+#logo{
+    float: left;
+}
+
 #header {
     background: #7918f2;
     background: -webkit-linear-gradient(-45deg,#ac32e4,#7918f2,#4801ff);
@@ -24,23 +28,48 @@ html{
     background: -moz-linear-gradient(-45deg,#ac32e4,#7918f2,#4801ff);
     background: linear-gradient(-45deg,#ac32e4,#7918f2,#4801ff);
     padding: 1% 2%;
+    position: relative;
 }
 
 .nav {
     color: white;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 3px;
+    padding-bottom: 3px;
+
+}
+
+.nav:hover{
+    background-color: rgba(52,58,64,.5)
+}
+
+.nav-current:hover{
+    background-color: rgba(220,53,69,.5)
 }
 
 .nav-current {
     text-decoration: underline !important; /* forces current page selector to have underline */
     color: white !important;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 3px;
+    padding-bottom: 3px;
 }
 
 #links>a {
     text-decoration: none;
     font-family: "Arial Black";
     font-size: 20px;
-    vertical-align: center;
+    vertical-align: bottom;
     color: white;
+}
+
+#links{
+    position: absolute;
+    bottom:4%;
+    right: 1%;
+    max-width: 50%;
 }
 
 .righta {
