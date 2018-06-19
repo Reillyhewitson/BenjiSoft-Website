@@ -1,9 +1,4 @@
 <div id="header">
-        <div id="google_translate_element"></div><script type="text/javascript">
-            function googleTranslateElementInit() {
-            new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_RIGHT}, 'google_translate_element');
-            }
-        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         <a href = "index.php" id = "logo"><img src="lib/res/logo.png" height="110" id = "logo"></a>  
         <div id="links" class="righta">
             <a href="index.php"
