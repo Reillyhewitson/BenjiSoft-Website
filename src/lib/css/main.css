@@ -56,7 +56,12 @@ html{
     border-radius: 3px;
     padding-bottom: 3px;
 }
-
+#google_translate_element{
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
 #links>a {
     text-decoration: none;
     font-family: "Arial Black";
