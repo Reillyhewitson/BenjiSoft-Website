@@ -172,6 +172,9 @@ table.center {
     #dropdown{
         overflow: auto;
     }
+    #google_translate_element{
+        display: none;
+    }
 }
 
 /* Button styling */
