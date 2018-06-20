@@ -1,7 +1,75 @@
 td {
-    width: 20%;
     text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 6px;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    flex: 1;
 }
+
 td > a {
     color: black;
+}
+
+tr{
+    display: flex;
+}
+
+.desc{
+    flex: 1;
+    text-align: justify;
+}
+
+.headshot{
+    height: 100px;
+    width: 100px;
+    border-radius: 49.95%;
+    object-fit: cover;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.headshot:hover{
+    opacity: 0.5;
+}
+
+.background{
+    background-color: black;
+    width: 106px;
+    height: 106px;
+    border-radius: 49.95%;
+    object-fit: cover;
+    float: center;
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    flex: 1;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px){
+    /* Force table to not be like tables anymore */
+	table, tbody, td, tr, body { 
+		display: block; 
+    }
+    
+    td { 
+        /* Behave  like a "row" */ 
+        position: relative;
+        padding-bottom: 2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        overflow: auto; /* In case screen is too narrow */
+    }
 }
